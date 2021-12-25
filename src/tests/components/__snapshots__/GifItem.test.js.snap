@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing component GifItem should return the component 1`] = `
+<Fragment>
+  <div
+    className="card-image animate__animated  animate__pulse"
+  >
+    <img
+      alt="title test"
+      src="image.jpg"
+    />
+    <p
+      className="gif-title"
+    >
+      title test
+    </p>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing GifExpertApp should render list of categories 1`] = `
+<div
+  className="main"
+>
+  <h2>
+    Search Gifs App 
+    <span>
+      🧐
+    </span>
+  </h2>
+  <CategorieAdd
+    setCategories={[Function]}
+  />
+  <GifResults
+    category="Marvel"
+    key="Marvel"
+  />
+  <GifResults
+    category="IronMan"
+    key="IronMan"
+  />
+  <div
+    className="footer"
+  >
+    <a
+      href="https://github.com/Maluzzz/"
+    >
+      Maluzzz ♥
+    </a>
+  </div>
+</div>
+`;
+
+exports[`testing GifExpertApp should render the component 1`] = `
+<div
+  className="main"
+>
+  <h2>
+    Search Gifs App 
+    <span>
+      🧐
+    </span>
+  </h2>
+  <CategorieAdd
+    setCategories={[Function]}
+  />
+  <div
+    className="footer"
+  >
+    <a
+      href="https://github.com/Maluzzz/"
+    >
+      Maluzzz ♥
+    </a>
+  </div>
+</div>
+`;

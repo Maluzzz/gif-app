@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Gif Results Component should render the first time without category 1`] = `
+<Fragment>
+  <h3 />
+  <p>
+    'Cargando'
+  </p>
+  <div
+    className="card-container"
+  />
+</Fragment>
+`;
+
+exports[`Testing Gif Results Component should render with information from useFetchGifs 1`] = `
+<Fragment>
+  <h3 />
+  <div
+    className="card-container"
+  >
+    <GifItem
+      id="abcd"
+      key="abcd"
+      title="Hello"
+      url="image.jpg"
+    />
+  </div>
+</Fragment>
+`;
